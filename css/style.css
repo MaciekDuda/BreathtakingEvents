@@ -1,3 +1,70 @@
+:root {
+    --font-bungee: "Bungee Inline", sans-serif;
+    --color-white: white;
+    --color-black: black;
+}
+
 * {
     box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 100vw;
+    height: 700px;
+    background-color: var(--color-black);
+    background-image: url("../images/concert.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    font-family: var(--font-bungee);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.article {
+    width: 100vw;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-text {
+    padding: 100px 0;
+    color: var(--color-black);
+    font-family: var(--font-bungee);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.footer {
+    width: 100vw;
+    height: 200px;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--color-white);
+    font-family: var(--font-bungee);
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
 }
